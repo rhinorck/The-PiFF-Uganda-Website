@@ -1,0 +1,37 @@
+<form id="volunteer_signup" action="../php/form_process.php" method="post">
+	<fieldset>
+		<legend> Personal Details</legend>
+		<label for="firstName">First Name: </label>
+		<input type="text" id="firstName" required />
+		<label for="lastName">Last Name: </label>
+		<input type="text" id="lastName" />
+		<label for="email">Email:</label>
+		<input type="email" id="email" required />
+		<label for="phoneNumber">Telephone: </label>
+		<input type="text" id="phoneNumber" />
+		<label for="website">Website: </label>
+		<input type="text" id="website" />
+	</fieldset>
+	<fieldset>
+		<legend> Location Details </legend>
+		<label for="address"> Address: </label>
+		<textarea id="address"></textarea>
+		<label for="city"> City</label>
+		<input type="text" id="city" />
+		<label for="country"> Country</label>
+		<input type="text" id="country" />
+	</fieldset>
+	<fieldset>
+		<legend> I would like to </legend>
+		<label for="piffProject">Get Involved in a PiFF Uganda Project</label><br>
+		<input type="checkbox" name="theKindnessDrive" value="The Kindness Drive">The Kindness Drive <br>
+		<input type="checkbox" name="knowledgeForAll" value="Knowledge For All">Knowledge For All<br><br>
+		
+		<label for="piffActivity">Take Part in a PiFF Uganda Activity</label><br>
+		<input type="checkbox" name="educationFundFundraiser" value="Fundraising for The Education Fund">Fundraising for The Education Fund <br><br>
+		<label for="piffTask">Perform a Task</label><br>
+		<input type="checkbox" name="facebookPage" value="Help Manage the PiFF Facebook Page">Help Manage the PiFF Uganda Facebook Page<br>
+		<input type="checkbox" name="twitterAccount" value="Help Manage the PiFF Twitter Account">Help Manage the PiFF Twitter Account<br><br>
+		<button type="reset"> Reset Form</button><button type="submit"> Join Us</button>
+		
+	</form>			

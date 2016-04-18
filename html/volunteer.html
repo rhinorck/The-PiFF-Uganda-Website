@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Join Us - The PiFF Uganda</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1">
+		<link rel="stylesheet" type="text/css" href="../css/styles.css">
+		<link rel="stylesheet" type="text/css" href="../css/simple-slideshow-styles.css">
+		
+	</head>
+	<body>
+		<div id="nav_menu_wrapper" >
+			<img src="../images/logo_black.png" class="top_logo">
+			<a class="hvr-bubble-bottom" href="#"><img src="../images/logo_black.png" class="top_logo_mobile"></a>
+			<nav class="top_nav_menu">
+				
+				<ul class="mainMenu">
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="who_we_are.html">Who We Are</a></li>
+					<li><a href="what_we_do.html" >What We do</a>
+						
+					</li>
+					<li><a href="volunteer.html" class="active">Volunteer<span class="menu_arrow">&#9660;</span></a>
+						<ul>
+							<li ><a href="volunteer.html">Contribute to a Project</a></li>
+							<li ><a href="volunteer.html">Take Part in an Activity</a></li>
+							<li ><a href="volunteer.html">Perform a Task</a></li>
+						</ul>
+					</li>
+					<li><a href="papertrail.html">Papertrail</a></li>
+					<li><a href="contact_us.html">Get in Touch</a></li>
+				</ul>
+			</nav>
+		</div><!--nav_menu_wrapper-->
+		<div id="container">
+			
+			<div id="body_content">
+				<div id="slider">
+					<div >
+						
+						<figure>
+							<img src="../images/becky_jaque_nicki.jpg" alt="Do Kind Stuff" width="100%">
+							
+						</figure>						
+					</div><!--bss-slides-->
+				</div><!--slider-->
+				<div class="project_showcase">
+					<div class="projects_display">
+						
+						<article class="project_notes">
+							<h2>Volunteer</h2>
+							<p>The PiFF Uganda is built on the strength of volunteers who give their time and expertise to help run PiFF projects and activities.</p>
+							<p>Management is undertaken by a volunteer board comprising of:-
+								<ul class="section_list">
+									<li>Chairperson</li>
+									<li>Secretary</li>
+									<li>Treasurer</li>
+									<li>Co-ordinator</li>
+									<li>Spokesperson</li>
+								</ul>
+								Deputies are appointed by the board from the available volunteers.
+							</p>
+							<p>The management board reports periodically to a Board of Trustees that is also comprised of volunteers picked for their exemplary service to their communities, experience and standing in society.
+							</p>
+							<p> You can volunteer to perform a task, take part in an activity or contribute to a project.</p>
+							<img src="../images/piff_structure.jpg"  alt="PiFF Structure" class="section-image" >
+							
+						</article>
+						
+						
+					</div><!--projects_display-->
+					<div class="tools_sidebar">
+						<h2 class="taskmaster_heading"> TASKMASTER</h2>
+						<div id="taskmaster">
+							<p>Listed here are the current tasks/activities you can volunteer to perform. You will be assigned a PiFF member (the Taskmaster :-) to guide you and offer any assistance needed to successfully perform the task. </p>
+							<h3> 12-04-2016 </h3>
+							<ul class="tasklist">
+								<li>Fundraise for the Education Fund</li>
+								<li>Manage the PiFF Facebook Page</li>
+								<li>Manage the PiFF Twitter Account</li>
+								<li>Improve the PiFF Website</li>
+							</ul>
+							
+						</div><!--taskmaster-->
+						<div id="joinUsForm">
+							<h3>Volunteer Sign Up Form</h3>
+							<p>Please fill out the form below to volunteer</p>
+							<br />
+							<br />
+							<form id="volunteer_signup" name="volunteer_signup" action="../php/form_process.php" method="post">
+								<fieldset>
+									<legend> Personal Details</legend>
+									<label for="firstName" id="firstName">First Name (*required): </label>
+									<input type="text" name="firstName" id="firstName" required />
+									<label for="lastName" id="lastName">Last Name: </label>
+									<input type="text" name="lastName" id="lastName" />
+									<label for="email" id="email">Email (*required):</label>
+									<input type="email" name="email" id="email" required />
+									<label for="phoneNumber" id="email">Telephone: </label>
+									<input type="text" name="phoneNumber" id="phoneNumber" />
+									<label for="website" id="website">Website: </label>
+									<input type="text" name="website" id="website" />
+								</fieldset> 
+								<fieldset>
+									<legend> Location Details </legend>
+									<label for="address" id="address"> Address: </label>
+									<textarea name="address" id="address"></textarea>
+									<label for="city" id="city"> City</label>
+									<input type="text" name="city" id="city" />
+									<label for="country" id="country"> Country</label>
+									<input type="text" name="country" id="country" />
+								</fieldset>
+								<fieldset>
+									<legend> I would like to </legend>
+									<p>Get Involved in a PiFF Uganda Project</p><br />
+									<label for="theKindnessDrive" id="theKindnessDrive">The Kindness Drive </label>
+									<input type="checkbox" name="theKindnessDrive" id="theKindnessDrive" value="The Kindness Drive"><br /><br />
+									<label for="knowledgeForAll" id="knowledgeForAll">Knowledge For All </label>
+									<input type="checkbox" name="knowledgeForAll" id="knowledgeForAll" value="Knowledge For All"><br /><br />
+									
+									<p>Take Part in a PiFF Uganda Activity</p><br />
+									<label for="educationFundFundraiser" id="educationFundFundraiser">Fundraising for The Education Fund  </label>
+									<input type="checkbox" name="educationFundFundraiser" id="educationFundFundraiser" value="Fundraising for The Education Fund"><br /><br />
+									<p>Perform a Task<p><br />
+										<label for="facebookPage" id="facebookPage">Help Manage the PiFF Facebook Page </label>
+										<input type="checkbox" name="facebookPage" id="facebookPage" value="Manage the PiFF Facebook Page"><br /><br />
+										<label for="twitterAccount" id="twitterAccount">Help Manage the PiFF Twitter Account</label>
+										<input type="checkbox" name="twitterAccount" id="twitterAccount" value="Manage the PiFF Twitter Account"><br /><br />
+										<label for="piffWebsite" id="piffWebsite">Work on the PiFF Website</label>
+										<input type="checkbox" name="piffWebsite" id="piffWebsite" value="Work on the PiFF Website"><br /><br />
+										<p>Send us a Message</p>
+										<label for="message" id="message">Message </label>
+										<textarea name="message" id="message" value=""></textarea><br /><br />
+										<input type="hidden" name="recipients" value="piffuganda_2_gmail.com" />
+										<input type="hidden" name="required" value="email:Your Email Address, firstName:Your First Name" />
+										<input type="hidden" name="subject" value="PiFF Volunteer Signup Form" />
+										<input type="hidden" name="mail_options" value="FromAddr=VolunteerForm@piffuganda.org" />
+										<input type="hidden" name="good_url" value="http://piffuganda.org/html/sign_up_success.html" />
+										<input type="hidden" name="bad_url" value="http://piffuganda.org/html/sign_up_error.html" />
+										<button type="reset" name="reset" id="reset"> Reset Form</button><button name="submit" id="submit" type="submit"> Join Us</button>
+									</form>	
+									</div><!--joinUsForm-->
+									
+									
+									
+								</div><!--tools_sidebar-->
+								
+								
+							</div><!--project_showcase-->
+							<p class="clearfix"> </p>
+							
+							
+						</div><!--body_content-->
+						
+						<div id="footer">
+							
+							<div id="footer_nav_menu">
+								
+								<ul>
+									<li><a href="../index.html">Home</a></li>
+									<li><a href="who_we_are.html">Who We Are</a></li>
+									<li><a href="what_we_do.html">What We do</a></li>
+									<li><a href="volunteer.html">Volunteer</a></li>
+									
+									<li><a href="papertrail.html">Papertrail</a></li>
+									<li><a href="contact_us.html">Get in Touch</a></li>
+								</ul>
+								
+							</div><!--footer_nav_menu-->
+							<div class="copyright">
+								<p>&copy; 2016 - The Pay It Forward Foundation Uganda </p>
+							</div><!--copyright-->
+						</div><!--footer-->
+					</div><!--container-->
+					<script type="text/javascript" src="../js/jquery-1.12.3.min.js"> </script>
+					<script type="text/javascript" src="../js/better-simple-slideshow.js"> </script>
+					<script type="text/javascript" src="../js/hammer.min.js"> </script>
+					<script type="text/javascript">
+						$('a.hvr-bubble-bottom').click(function(){
+							
+							$('ul.mainMenu').slideToggle();
+							
+							$(window).resize(function(){
+								
+								if ($(window).width() > 825){
+									
+									$('ul.mainMenu').removeAttr('style');
+								}
+							}
+							)	
+						})
+						
+					</script>
+					
+				</body>
+				
+			</html>																		

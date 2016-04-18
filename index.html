@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Building a Better World Together - The PiFF Uganda</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/simple-slideshow-styles.css">
+		
+	</head>
+	<body>
+		<div id="nav_menu_wrapper" >
+			<img src="images/logo_black.png" class="top_logo">
+			<a class="hvr-bubble-bottom" href="#"><img src="images/logo_black.png" class="top_logo_mobile"></a>
+			<nav class="top_nav_menu">
+				
+				<ul class="mainMenu">
+					<li><a href="index.html" class="active">Home</a></li>
+					<li><a href="html/who_we_are.html">Who We Are</a></li>
+					<li><a href="html/what_we_do.html">What We do</a>
+						
+					</li>
+					<li><a href="html/volunteer.html">Volunteer<span class="menu_arrow">&#9660;</span></a>
+						<ul>
+							<li ><a href="html/volunteer.html.html">Contribute to a Project</a></li>
+							<li ><a href="html/volunteer.html.html">Take Part in an Activity</a></li>
+							<li ><a href="html/volunteer.html.html">Perform a Task</a></li>
+						</ul>
+					</li>
+					<li><a href="html/papertrail.html">Papertrail</a></li>
+					<li><a href="html/contact_us.html">Get in Touch</a></li>
+				</ul>
+			</nav>
+		</div><!--nav_menu_wrapper-->
+		<div id="container">
+			<div id="homepage_slider">
+				<div class="bss-slides">
+					<figure>
+						<img src="images/lao_tzu_center.png" alt="At the Center of Your Being" width="100%">
+						<figcaption> </figcaption> 
+					</figure>
+					<figure>
+						<img src="images/do_kind_stuff.png" alt="Do Kind Stuff" width="100%">
+						<figcaption> </figcaption> 
+					</figure>
+					<figure>
+						<img src="images/pay_it_forward.png" alt="Pay it Forward" width="100%">
+						<figcaption> </figcaption> 
+					</figure>
+					<figure>
+						<img src="images/simple_and_fierce.png" alt="Thank You" width="100%">
+						<figcaption> </figcaption> 
+					</figure>
+					<figure>
+						<img src="images/you_are_magic.png" alt="You Are Magic" width="100%">
+						<figcaption> </figcaption> 
+					</figure>
+					<figure>
+						<img src="images/no_act_of_kindness.png" alt="Thank You" width="100%">
+						<figcaption> </figcaption> 
+					</figure>
+					<figure>
+						<img src="images/kind_hearted.png" alt="Thank You" width="100%">
+						<figcaption> </figcaption> 
+					</figure>
+				<figure>
+					<img src="images/truth_and_kindness.png" alt="Thank You" width="100%">
+					<figcaption> </figcaption> 
+				</figure>
+			</div><!--bss-slides-->
+		</div><!--homepage_slider-->
+		<div id="body_content">
+			
+		</div><!--body_content-->
+		
+		<div id="footer">
+			<div id="logo"><a href="index.html"><figure><img src="images/logo.png" alt="PiFF Uganda Logo" class="bottom_logo"></figure></a></div>
+			<div id="footer_nav_menu">
+				
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="html/who_we_are.html">Who We Are</a></li>
+					<li><a href="html/what_we_do.html">What We do</a></li>
+					<li><a href="html/volunteer.html">Volunteer</a></li>
+					
+					<li><a href="html/papertrail.html">Papertrail</a></li>
+					<li><a href="html/contact_us.html">Get in Touch</a></li>
+				</ul>
+				
+				</div><!--footer_nav_menu-->
+				<div class="copyright">
+					<p>&copy; 2016 - The Pay It Forward Foundation Uganda </p>
+				</div><!--copyright-->
+			</div><!--footer-->
+		</div><!--container-->
+		<script type="text/javascript" src="js/jquery-1.12.3.min.js"> </script>
+		<script type="text/javascript" src="js/better-simple-slideshow.js"> </script>
+		<script type="text/javascript" src="js/hammer.min.js"> </script>
+		<script type="text/javascript">
+			$('a.hvr-bubble-bottom').click(function(){
+				
+				$('ul.mainMenu').slideToggle();
+				
+				$(window).resize(function(){
+					
+					if ($(window).width() > 825){
+						
+						$('ul.mainMenu').removeAttr('style');
+					}
+				}
+				)	
+			})
+			
+		</script>
+		
+		<script> 
+			var opts = {
+				auto : {
+					speed : 8500, 
+					pauseOnHover : true
+				},
+				fullScreen : false, 
+				swipe : true
+			};
+			makeBSS('.bss-slides', opts);
+		</script>
+	</body>
+	
+</html>													
